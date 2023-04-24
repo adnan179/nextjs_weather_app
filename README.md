@@ -1,6 +1,4 @@
-# Howdy developers community!!
-
-A simple Weather app using next js and openweathermap API!!!
+# A simple Weather app using next js and openweathermap API!!!
 ## Website Preview:
 
 # Starting page with the defualt background and search bar
