@@ -28,8 +28,8 @@ A simple Weather app using next js and openweathermap API!!!
 # 5) select the api you want to use for your project and click subscribe, for this project I have used "current weather data" api
   
 ![image](https://user-images.githubusercontent.com/100411918/234006555-0b68239a-fe98-4077-bf2b-7b182926aca0.png)
-#6)Now finish up creating your account, if already created skip this step.
-#7)Go back to the openweathermap.org/api and select the api doc for the api which you have seleted before.
+# 6)Now finish up creating your account, if already created skip this step.
+# 7)Go back to the openweathermap.org/api and select the api doc for the api which you have seleted before.
   
 ![image](https://user-images.githubusercontent.com/100411918/234006762-30811499-21fa-46b7-aa90-1939f5b51373.png)
 # 8)copy the api call link for it
