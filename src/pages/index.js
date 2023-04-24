@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import axios from "axios";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import {BsSearch} from 'react-icons/bs';
 import Weather from "../../components/Weather";
 import Spinner from "../../components/spinner";
@@ -19,7 +19,11 @@ const Weatherapp = () =>{
   const [bgimg, setBGimg] = useState([defaultimg]);
 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${process.env.NEXT_PUBLIC_WEATHER_KEY}`;
-
+  
+  const inputRef = useRef();
+  useEffect(()=>{
+    inputRef.current.focus()
+  },[]);
   const fetchWeatherData = (e) =>{
     e.preventDefault();
     setLoading(true);
@@ -75,6 +79,7 @@ const Weatherapp = () =>{
             <div>
               <input type="text" placeholder="Enter the city name" 
               className="bg-transparent border-none text-white focus:outline-none text-2xl placeholder-white"
+              ref={inputRef}
               onChange={(e) =>{
                 setCity(e.target.value);
               }}
