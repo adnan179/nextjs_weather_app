@@ -21,21 +21,25 @@ A simple Weather app using next js and openweathermap API!!!
 
 ## how to create it:
 
-1)Open your code editor and use npx create next-app <folderName> or . if you have already created the folder for your project.
-2) install tailwindcss(for installation see the link: https://tailwindcss.com/docs/guides/nextjs )
-3) config the tailwindcss according to the documentation.
-4)Go to https://openweathermap.org/api
-5) select the api you want to use for your project and click subscribe, for this project I have used "current weather data" api
+# 1)Open your code editor and use npx create next-app <folderName> or . if you have already created the folder for your project.
+# 2) install tailwindcss(for installation see the link: https://tailwindcss.com/docs/guides/nextjs )
+# 3) config the tailwindcss according to the documentation.
+# 4)Go to https://openweathermap.org/api
+# 5) select the api you want to use for your project and click subscribe, for this project I have used "current weather data" api
+  
 ![image](https://user-images.githubusercontent.com/100411918/234006555-0b68239a-fe98-4077-bf2b-7b182926aca0.png)
-6)Now finish up creating your account, if already created skip this step.
-7)Go back to the openweathermap.org/api and select the api doc for the api which you have seleted before.
+#6)Now finish up creating your account, if already created skip this step.
+#7)Go back to the openweathermap.org/api and select the api doc for the api which you have seleted before.
+  
 ![image](https://user-images.githubusercontent.com/100411918/234006762-30811499-21fa-46b7-aa90-1939f5b51373.png)
-8)copy the api call link for it
+# 8)copy the api call link for it
+  
 ![image](https://user-images.githubusercontent.com/100411918/234006107-a6cc54b3-2e61-4b85-9dff-bd62c846bcd6.png)
-9)Open your project in your code editor and create .env file for holding the API key in it
+# 9)Open your project in your code editor and create .env file for holding the API key in it
+  
 ![image](https://user-images.githubusercontent.com/100411918/234007102-76e4075d-5b71-49ca-ba53-536d1b3741eb.png)
-10)Install axios using npm install axios( it is the api used to make api calls)
-11)See the code for the further steps
+# 10)Install axios using npm install axios( it is the api used to make api calls)
+# 11)See the code for the further steps
 
 
 
